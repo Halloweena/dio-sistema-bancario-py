@@ -37,6 +37,9 @@ while True:
         if valor > 0:
             saldo += valor
             extrato += f"Depósito: R$ {valor:.2f}\n"
+            print("=================================================")
+            print(f"Valor de R$ {valor:.2f} depositado com sucesso.")
+            print("=================================================")
 
         else:
             print("==============================================")
@@ -71,6 +74,9 @@ while True:
             saldo -= valor
             extrato += f"Saque: R$ {valor:.2f}\n"
             numero_saques += 1
+            print("=============================================")
+            print(f"Valor de R$ {valor:.2f} sacado com sucesso.")
+            print("=============================================")
 
         else:
             print("==============================================")
